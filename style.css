@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 100%;
+}
+
+form {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 260px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+    color: #555;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 2px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: 100%;
+    padding: 6px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"] {
+    background-color: #00aaff;
+    color: white;
+}
+
+input[type="submit"]:hover {
+    background-color: #0077cc;
+}
+
+input[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+    margin-top: 4px;
+}
+
+input[type="reset"]:hover {
+    background-color: #999;
+}
+
+img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 60px;
+}
