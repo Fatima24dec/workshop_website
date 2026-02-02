@@ -2,7 +2,8 @@
 A simple workshop registration system built with HTML, CSS, PHP, and MySQL (XAMPP)
 
 ![Project Screenshot](screenshot/index.png)
-
+## System Flowchart
+![System Flowchart](diagram/Flowchart_workshop.png) 
 
 # Workshop Registration System
 
